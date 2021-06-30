@@ -20,7 +20,8 @@
 const lifesciences = require('@google-cloud/lifesciences');
 
 function main() {
-  const workflowsServiceV2BetaClient = new lifesciences.WorkflowsServiceV2BetaClient();
+  const workflowsServiceV2BetaClient =
+    new lifesciences.WorkflowsServiceV2BetaClient();
 }
 
 main();
