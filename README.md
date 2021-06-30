@@ -32,8 +32,8 @@ Google APIs Client Libraries, in [Client Libraries Explained][explained].
 * [Quickstart](#quickstart)
   * [Before you begin](#before-you-begin)
   * [Installing the client library](#installing-the-client-library)
-
-
+  * [Using the client library](#using-the-client-library)
+* [Samples](#samples)
 * [Versioning](#versioning)
 * [Contributing](#contributing)
 * [License](#license)
@@ -55,6 +55,39 @@ npm install @google-cloud/life-sciences
 ```
 
 
+### Using the client library
+
+```javascript
+// Imports the Google Cloud client library
+
+const {WorkflowsServiceV2BetaClient} = require('@google-cloud/life-sciences');
+
+// const pipeline = 'name-of-pipeline', i.e., 1234
+// const projectId = your-project-id
+// const location = your-pipeline-location
+
+// Creates a client
+const client = new WorkflowsServiceV2BetaClient();
+
+async function checkPipelineProgress() {
+  const status = await client.checkRunPipelineProgress(
+    `projects/${projectId}/locations/${location}/operations/${pipeline}`
+  );
+  console.info(status);
+}
+checkPipelineProgress();
+
+```
+
+
+
+## Samples
+
+Samples are in the [`samples/`](https://github.com/googleapis/nodejs-life-sciences/tree/master/samples) directory. Each sample's `README.md` has instructions for running its sample.
+
+| Sample                      | Source Code                       | Try it |
+| --------------------------- | --------------------------------- | ------ |
+| Quickstart | [source code](https://github.com/googleapis/nodejs-life-sciences/blob/master/samples/quickstart.js) | [![Open in Cloud Shell][shell_img]](https://console.cloud.google.com/cloudshell/open?git_repo=https://github.com/googleapis/nodejs-life-sciences&page=editor&open_in_editor=samples/quickstart.js,samples/README.md) |
 
 
 

@@ -305,7 +305,7 @@ export class WorkflowsServiceV2BetaClient {
   // -------------------
 
   runPipeline(
-    request: protos.google.cloud.lifesciences.v2beta.IRunPipelineRequest,
+    request?: protos.google.cloud.lifesciences.v2beta.IRunPipelineRequest,
     options?: CallOptions
   ): Promise<
     [
@@ -391,7 +391,7 @@ export class WorkflowsServiceV2BetaClient {
    * const [response] = await operation.promise();
    */
   runPipeline(
-    request: protos.google.cloud.lifesciences.v2beta.IRunPipelineRequest,
+    request?: protos.google.cloud.lifesciences.v2beta.IRunPipelineRequest,
     optionsOrCallback?:
       | CallOptions
       | Callback<
