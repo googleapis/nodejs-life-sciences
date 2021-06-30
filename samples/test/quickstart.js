@@ -28,7 +28,7 @@ const cwd = path.join(__dirname, '..');
 describe('Quickstart', () => {
   it('should run quickstart', async () => {
     const stdout = execSync(
-      'node ./quickstart.js long-door-651 us-central1 16492671050769046896',
+      'node ./quickstart.js long-door-651 us-central1 15945335513149178558',
       {cwd}
     );
     // eslint-disable-next-line no-undef
