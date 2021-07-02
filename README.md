@@ -2,7 +2,7 @@
 [//]: # "To regenerate it, use `python -m synthtool`."
 <img src="https://avatars2.githubusercontent.com/u/2810941?v=3&s=96" alt="Google Cloud Platform logo" title="Google Cloud Platform" align="right" height="96" width="96"/>
 
-# [Cloud Life Sciences: Node.js Client](https://github.com/googleapis/nodejs-life-sciences)
+# [Cloud Life Sciences Test: Node.js Client](https://github.com/googleapis/nodejs-life-sciences)
 
 [![release level](https://img.shields.io/badge/release%20level-beta-yellow.svg?style=flat)](https://cloud.google.com/terms/launch-stages)
 [![npm version](https://img.shields.io/npm/v/@google-cloud/life-sciences.svg)](https://www.npmjs.org/package/@google-cloud/life-sciences)
@@ -17,8 +17,8 @@ lifesciences client for Node.js
 A comprehensive list of changes in each version may be found in
 [the CHANGELOG](https://github.com/googleapis/nodejs-life-sciences/blob/master/CHANGELOG.md).
 
-* [Cloud Life Sciences Node.js Client API Reference][client-docs]
-* [Cloud Life Sciences Documentation][product-docs]
+* [Cloud Life Sciences Test Node.js Client API Reference][client-docs]
+* [Cloud Life Sciences Test Documentation][product-docs]
 * [github.com/googleapis/nodejs-life-sciences](https://github.com/googleapis/nodejs-life-sciences)
 
 Read more about the client libraries for Cloud APIs, including the older
@@ -44,7 +44,7 @@ Google APIs Client Libraries, in [Client Libraries Explained][explained].
 
 1.  [Select or create a Cloud Platform project][projects].
 1.  [Enable billing for your project][billing].
-1.  [Enable the Cloud Life Sciences API][enable_api].
+1.  [Enable the Cloud Life Sciences Test API][enable_api].
 1.  [Set up authentication with a service account][auth] so you can access the
     API from your local workstation.
 
@@ -91,7 +91,7 @@ Samples are in the [`samples/`](https://github.com/googleapis/nodejs-life-scienc
 
 
 
-The [Cloud Life Sciences Node.js Client API Reference][client-docs] documentation
+The [Cloud Life Sciences Test Node.js Client API Reference][client-docs] documentation
 also contains samples.
 
 ## Supported Node.js Versions
