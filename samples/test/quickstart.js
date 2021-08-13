@@ -29,7 +29,6 @@ const cwd = path.join(__dirname, '..');
 
 describe('Quickstart', () => {
   it('should run quickstart', async () => {
-    let err;
     assert.throws(() => {
       execSync(
         'node ./quickstart.js long-door-651 us-central1 15945335513149178558',
